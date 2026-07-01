@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>Politica de Privacidade - GeoCampo Offline</title>
+<style>
+  :root { --blue: #123A7A; --yellow: #F4C430; --ink: #172033; --muted: #667085; --line: #D8DEE9; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: var(--ink); line-height: 1.6; margin: 0; background: #F5F7FB; }
+  main { max-width: 780px; margin: 0 auto; padding: 32px 20px 64px; }
+  header { border-bottom: 4px solid var(--yellow); padding-bottom: 16px; margin-bottom: 24px; }
+  h1 { color: var(--blue); font-size: 1.8rem; margin: 0 0 4px; }
+  .updated { color: var(--muted); font-size: .9rem; }
+  h2 { color: var(--blue); font-size: 1.15rem; margin-top: 30px; border-left: 4px solid var(--yellow); padding-left: 10px; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  .box { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin-top: 20px; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Politica de Privacidade - GeoCampo Offline</h1>
+    <p class="updated">Ultima atualizacao: 30 de junho de 2026</p>
+  </header>
+
+  <p>O GeoCampo Offline e um aplicativo Android de apoio a operacoes de campo, com foco em uso
+  offline, coleta georreferenciada, trilhas, mapas locais e compartilhamento de dados
+  operacionais.</p>
+
+  <p>O app e um projeto independente. Ele nao representa, nao substitui e nao se
+  apresenta como aplicativo oficial de qualquer orgao publico.</p>
+
+  <h2>Dados armazenados no aparelho</h2>
+  <p>O aplicativo pode armazenar localmente:</p>
+  <ul>
+    <li>operacoes/projetos;</li>
+    <li>pontos, linhas, poligonos, trilhas e coordenadas GPS;</li>
+    <li>altitude, precisao e horarios de coleta;</li>
+    <li>fotos e audios vinculados a pontos ou operacoes;</li>
+    <li>mapas, camadas, MBTiles, GeoJSON, KML/KMZ, CSV, backups e exportacoes;</li>
+    <li>observacoes, atributos e conteudo inserido pelo usuario;</li>
+    <li>nome completo, nome operacional, unidade, identificador funcional e e-mail institucional;</li>
+    <li>PIN local protegido por hash, nunca em texto puro;</li>
+    <li>chaves ou preferencias de servicos opcionais configurados pelo usuario.</li>
+  </ul>
+
+  <h2>Verificacao institucional</h2>
+  <p>O app pode usar Firebase Authentication para verificar e autenticar e-mails
+  institucionais autorizados. Nesse caso, o e-mail institucional e a senha online do GeoCampo Offline
+  sao enviados ao Firebase por conexao segura para criacao/autenticacao da conta e envio
+  do link de verificacao. O PIN offline do aparelho nao e enviado ao Firebase.</p>
+
+  <h2>Permissoes usadas</h2>
+  <ul>
+    <li>Localizacao precisa/aproximada, para mapa, pontos, trilhas e navegacao.</li>
+    <li>Localizacao em segundo plano, quando a gravacao de trilha precisar continuar com a tela bloqueada ou app em segundo plano.</li>
+    <li>Camera, para registrar fotos vinculadas a pontos/operacoes.</li>
+    <li>Microfone, para gravar audio.</li>
+    <li>Internet, para verificacao institucional, mapas online e servicos opcionais.</li>
+    <li>Notificacoes, para informar gravacao de trilha/servicos em execucao.</li>
+  </ul>
+
+  <h2>Compartilhamento de dados</h2>
+  <p>O GeoCampo Offline nao vende dados pessoais. Dados podem sair do aparelho quando o usuario
+  compartilha/exporta arquivos, usa Firebase Authentication, usa mapas online ou envia
+  backups/exportacoes para aplicativos ou servicos de terceiros.</p>
+
+  <h2>Seguranca</h2>
+  <p>O app bloqueia trafego sem criptografia no Android e usa conexoes HTTPS/TLS para
+  servicos externos. Dados sensiveis locais usam protecoes do Android sempre que disponiveis.</p>
+
+  <h2>Exclusao de dados</h2>
+  <p>O usuario pode excluir dados locais pelo proprio app ou limpando os dados do app nas
+  configuracoes do Android. Arquivos exportados, backups e dados enviados para terceiros
+  devem ser excluidos diretamente no respectivo servico. Contas Firebase devem ser removidas
+  pelo administrador do projeto enquanto o app nao possuir funcao propria de exclusao online.</p>
+
+  <h2>Aviso operacional</h2>
+  <p>O GeoCampo Offline e ferramenta de apoio. Coordenadas, mapas, trilhas, medidas, volumes, anexos e
+  exportacoes devem ser conferidos pela equipe responsavel antes de uso em procedimentos,
+  relatorios ou documentos oficiais.</p>
+
+  <h2>Contato</h2>
+  <div class="box">
+    <p>Responsavel pelo projeto: Diego Ferreira Lima e Correa Pereira.</p>
+    <p>E-mail de suporte a definir no Play Console.</p>
+  </div>
+
+  <footer>
+    <p>GeoCampo Offline - politica de privacidade publica para Google Play.</p>
+  </footer>
+</main>
+</body>
+</html>
